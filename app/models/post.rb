@@ -10,6 +10,6 @@ class Post
   validates_uniqueness_of :title
 
   belongs_to :user
-
+  paginates_per 10
 
 end

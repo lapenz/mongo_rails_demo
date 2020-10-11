@@ -26,6 +26,8 @@ gem 'devise'
 
 gem 'cancancan'
 
+gem 'kaminari-mongoid'
+
 gem 'mongoid-history'
 
 # Reduces boot times through caching; required in config/boot.rb

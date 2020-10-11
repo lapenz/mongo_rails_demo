@@ -4,7 +4,7 @@ class HomeController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
-    @posts = Post.all
+    @posts = Post.order('desc created_at').page params[:page]
   end
 
   # GET /posts/1
