@@ -1,24 +1,29 @@
-# README
+# Blog
+## 1. Go to root folder and Run bundle install at the first time:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```bash
+bundle install
+```
 
-Things you may want to cover:
+## 2. Yarn:
 
-* Ruby version
+```bash
+yarn install
+```
 
-* System dependencies
+## 3. Run the App:
 
-* Configuration
+```bash
+rails s
+```
 
-* Database creation
+## Details about the APP:
 
-* Database initialization
+I have used Cancancan for authorization.
+The internationalization gets the Language preference from the Browser.
 
-* How to run the test suite
+## Tests
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+rspec
+```
