@@ -29,6 +29,5 @@
 # To learn more, please read the Rails Internationalization guide
 # available at https://guides.rubyonrails.org/i18n.html.
 
-en:
-  posts_header: "My Posts"
-
+pt:
+  posts_header: "Meus Posts"

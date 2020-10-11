@@ -24,6 +24,10 @@ gem 'mongoid'
 gem 'bson_ext'
 gem 'devise'
 
+gem 'cancancan'
+
+gem 'mongoid-history'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 

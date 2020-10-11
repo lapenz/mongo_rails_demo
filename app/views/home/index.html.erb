@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Home</h1>
+
+<br>
+
+<% @posts.each do |post| %>
+
+    <h2><%= link_to  post.title, by_date_home_path(post, post.created_at) %></h2>
+    <p><%= post.body[0...400] %>...</p>
+    <small><%= post.user.email %></small>
+    <hr/>
+<% end %>
+
+
