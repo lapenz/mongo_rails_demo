@@ -26,6 +26,7 @@ gem 'devise'
 
 gem 'cancancan'
 
+gem 'kaminari'
 gem 'kaminari-mongoid'
 
 gem 'mongoid-history'
